@@ -10,9 +10,7 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Map;
-
-@Controller
+import java.util.Map;@Controller
 public class PathVariableController {
     @GetMapping("/request1/{name}")
     @ResponseBody
@@ -73,3 +71,5 @@ public class PathVariableController {
 
 
 }
+
+
